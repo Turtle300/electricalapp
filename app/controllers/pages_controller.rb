@@ -7,4 +7,6 @@ class PagesController < ApplicationController
     end
     def area
     end
+    def contact
+    end
 end
