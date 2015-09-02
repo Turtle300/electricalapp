@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get '/projects' => 'pages#reference'
+  get '/reference' => 'pages#reference'
   get '/contact' => 'pages#contact'
   get '/area' => 'pages#area'
   get '/services' => 'pages#services'

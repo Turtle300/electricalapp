@@ -9,4 +9,8 @@ class PagesController < ApplicationController
     end
     def contact
     end
+    def reference
+    end
+    def projects
+    end
 end
