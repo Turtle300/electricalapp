@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :contacts
   get '/projects' => 'pages#reference'
   get '/reference' => 'pages#reference'
   get '/area' => 'pages#area'
