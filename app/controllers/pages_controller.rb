@@ -7,8 +7,6 @@ class PagesController < ApplicationController
     end
     def area
     end
-    def contact
-    end
     def reference
     end
     def projects
